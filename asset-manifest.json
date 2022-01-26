@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/build/static/css/main.3ca36e11.css",
-    "main.js": "/build/static/js/main.052d8a3b.js",
+    "main.js": "/build/static/js/main.be14bcdd.js",
     "static/media/pyrmontbwy.gif": "/build/static/media/pyrmontbwy.0835e1cad621844cf7ed.gif",
     "static/media/pyrmont_sandstone_buildings.jpeg": "/build/static/media/pyrmont_sandstone_buildings.c942ae40cb456e7cd739.jpeg",
     "static/media/slides_cover.png": "/build/static/media/slides_cover.23b63556b732bf612743.png",
@@ -27,10 +27,10 @@
     "static/media/pyrmont_brewery.woff2": "/build/static/media/pyrmont_brewery.9d46e53b531a8376d70e.woff2",
     "index.html": "/build/index.html",
     "main.3ca36e11.css.map": "/build/static/css/main.3ca36e11.css.map",
-    "main.052d8a3b.js.map": "/build/static/js/main.052d8a3b.js.map"
+    "main.be14bcdd.js.map": "/build/static/js/main.be14bcdd.js.map"
   },
   "entrypoints": [
     "static/css/main.3ca36e11.css",
-    "static/js/main.052d8a3b.js"
+    "static/js/main.be14bcdd.js"
   ]
 }
