@@ -13,6 +13,17 @@ html {
     overflow-y: scroll;
 }
 
+.tvsimulator {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    pointer-events: none;
+    background: -webkit-repeating-linear-gradient(top, transparent 0px, transparent 1px, rgba(0,0,0,0) 1px, rgba(0,0,0,0.9) 4px);
+    background-size: 100% 2px;
+}
 span {
     width: 95%;
     justify-content: left;
@@ -83,7 +94,7 @@ p {
 .App {
     text-align: left;
     font-family: 'pyrmont_brewery';
-    font-size: small;
+    font-size: 1.3vh;
     padding: 0px 5px 0px 5px;
     background-color: #404040;
     white-space: wrap;
@@ -207,6 +218,7 @@ p {
     width: 50%;
     background-size: 30vw;
     background-repeat: no-repeat;
+    background-size: cover;
     opacity: 1;
     cursor: grabbing;
     justify-content: left;
@@ -283,7 +295,7 @@ p {
     color: #000000;
     text-decoration-line: none;
     text-align: left;
-    padding: 0.4vh 0.1vw 0.3vh 0.2vw;
+    padding: 0.6vh 0.2vw 0.7vh 0.2vw;
 }
 
 .App-link:hover {
@@ -291,7 +303,7 @@ p {
     color: #000000;
     text-decoration-line: none;
     text-align: left;
-    padding: 0.4vh 0.1vw 0.3vh 0.2vw;
+    padding: 0.6vh 0.2vw 0.7vh 0.2vw;
     animation: SPECCY_FLASH_GREEN 0.7s infinite;
     transition-duration: 0s;
 }
@@ -512,4 +524,12 @@ p {
     100% {
         transform: translate(0%, 0);
     }
+}
+
+.BeerMats {
+    margin: auto;
+    display: block;
+    opacity: 1;
+    height: 90%;
+    width: 90%;
 }
